@@ -1,10 +1,18 @@
 /** CSS STYLE **/
 
-* {
+html {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     color: #2a2626;
+}
+
+:root {
+    --orange: #FE8A02;
+}
+
+.font-orange {
+    color: var(--orange);
 }
 
 h1,
